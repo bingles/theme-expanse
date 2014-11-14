@@ -1229,6 +1229,9 @@ h3.tag-header {
   header .container.wide {
     padding: 30px;
   }
+    header .container.wide h1 a {
+    content: "JTJ";
+  }
 }
 /* Less than 479px width */
 .login {
