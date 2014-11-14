@@ -1232,6 +1232,7 @@ h3.tag-header {
   header .container.wide h1 {
     float: none;
     display: block;  
+    width: 100%;
   }
   header ul {
     float: none;
