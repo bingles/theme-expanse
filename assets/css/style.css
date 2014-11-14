@@ -48,7 +48,7 @@ a {
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #FD6A00;
+  color: #37cca2;
 }
 a:hover {
   color: #0e3029;
@@ -60,10 +60,10 @@ a:hover {
   float: right;
 }
 body {
-  font-size: 110%;
+  font-size: 100%;
   font-family: 'Roboto', helvetica, arial, sans-serif;
   color: #0e3029;
-  line-height: 2rem;
+  line-height: 1.5rem;
   font-family: 'Roboto';
   font-weight: 300;
 }
@@ -94,7 +94,7 @@ a {
   color: #0e3029;
 }
 a:hover {
-  color: #FD6A00;
+  color: #37cca2;
 }
 body {
   padding: 0;
@@ -190,7 +190,7 @@ header {
   position: relative;
   display: block;
   width: 100%;
-  height: 350px;
+  height: 550px;
   overflow: hidden;
   background-color: #000;
 }
@@ -258,7 +258,6 @@ header img {
   width: 100%;
 }
 header img.rainbow {
-  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -281,7 +280,7 @@ header h1 a {
   color: #ffffff;
 }
 header h1 a:hover {
-  color: #FD6A00;
+  color: #37cca2;
 }
 header ul {
   text-align: right;
@@ -302,16 +301,13 @@ header ul li a {
   font-weight: 400;
   color: #ffffff;
 }
-header ul li:first-child {
-  display: none;
-}
 header ul li a:hover {
-  color: #FD6A00;
+  color: #37cca2;
 }
 header ul li a:hover,
 header ul li a.active {
-  color: #FD6A00;
-  /*border-bottom: 2px solid #FD6A00;*/
+  color: #37cca2;
+  border-bottom: 2px solid #37cca2;
 }
 header .overlay {
   position: absolute;
@@ -429,7 +425,7 @@ body.short-header header {
   }
 }
 .bio {
-  display: none;
+  display: block;
   position: absolute;
   top: -40px;
   left: 50%;
@@ -531,7 +527,7 @@ body.short-header header {
   font-size: 0.85rem;
 }
 .bio .user-avatar-hover ul li a:hover {
-  color: #FD6A00;
+  color: #37cca2;
 }
 .bio.doHover .user-avatar img {
   -moz-opacity: 0.8;
@@ -592,7 +588,7 @@ footer i {
 }
 footer a:hover,
 footer i:hover {
-  color: #FD6A00;
+  color: #37cca2;
 }
 footer i {
   font-size: 1.1rem;
@@ -647,7 +643,7 @@ a.btn.btn-mini:hover {
 .post {
   display: block;
   clear: both;
-  padding: 100px 0 0 0;
+  padding: 125px 0 0 0;
 }
 .post a {
   text-decoration: none;
@@ -658,7 +654,7 @@ a.btn.btn-mini:hover {
   margin-bottom: 25px;
 }
 .post a.back:hover span {
-  color: #FD6A00;
+  color: #37cca2;
 }
 .post .post-content a {
   text-decoration: underline;
@@ -725,7 +721,7 @@ a.btn.btn-mini:hover {
 }
 .post-content p,
 .post-content div {
-  padding: 8px 0;
+  padding: 12.5px 0;
   margin: 0;
 }
 .post-content p.gist,
@@ -849,7 +845,7 @@ a.btn.btn-mini:hover {
   font-size: 0.9rem;
 }
 .post-tags li a:hover {
-  background-color: #FD6A00;
+  background-color: #37cca2;
 }
 .post-author {
   cursor: default;
@@ -892,7 +888,7 @@ a.btn.btn-mini:hover {
   font-size: 0.85rem;
   font-family: 'Roboto';
   font-weight: 400;
-  color: #FD6A00;
+  color: #37cca2;
 }
 .post-options {
   width: 50%;
@@ -1126,7 +1122,7 @@ div.posts h3 a {
   color: #0e3029;
 }
 div.posts h3 a:hover {
-  color: #FD6A00;
+  color: #37cca2;
 }
 div.posts h3 a.like {
   position: absolute;
@@ -1139,10 +1135,10 @@ div.posts h3 a.like span {
   color: #afb7b5;
 }
 div.posts h3 a.like:hover {
-  color: #FD6A00;
+  color: #37cca2;
 }
 div.posts h3 a.like:hover span {
-  color: #FD6A00;
+  color: #37cca2;
 }
 h3.tag-header {
   padding-bottom: 50px;
@@ -1174,10 +1170,10 @@ h3.tag-header {
   color: #afb7b5;
 }
 .pagination a:hover {
-  color: #FD6A00;
+  color: #37cca2;
 }
 .pagination a:hover span {
-  color: #FD6A00;
+  color: #37cca2;
 }
 .pagination .prev {
   float: left;
@@ -1228,23 +1224,6 @@ h3.tag-header {
   }
   header .container.wide {
     padding: 30px;
-  }
-  header .container.wide h1 {
-    float: none;
-    display: block;  
-    width: 100%;
-  }
-  header ul {
-    float: none;
-    text-align: left;
-    width: 100%;
-    margin-top: 8px;
-  }
-  header ul li {
-    padding: 0 0 0 15px;
-  }
-  header ul li:nth-child(2) {
-    padding: 0;
   }
 }
 /* Less than 479px width */
