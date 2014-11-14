@@ -302,6 +302,9 @@ header ul li a {
   font-weight: 400;
   color: #ffffff;
 }
+header ul li a:first-child {
+  display: none;
+}
 header ul li a:hover {
   color: #FD6A00;
 }
