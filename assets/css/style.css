@@ -60,10 +60,10 @@ a:hover {
   float: right;
 }
 body {
-  font-size: 100%;
+  font-size: 110%;
   font-family: 'Roboto', helvetica, arial, sans-serif;
   color: #0e3029;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   font-family: 'Roboto';
   font-weight: 300;
 }
@@ -190,7 +190,7 @@ header {
   position: relative;
   display: block;
   width: 100%;
-  height: 550px;
+  height: 350px;
   overflow: hidden;
   background-color: #000;
 }
@@ -270,8 +270,6 @@ header h1 {
   text-transform: uppercase;
   font-size: 1.75rem;
   color: #ffffff;
-  float: left;
-  width: 50%;
   margin: 0;
   padding: 0;
   line-height: 1.75rem;
@@ -283,16 +281,17 @@ header h1 a:hover {
   color: #37cca2;
 }
 header ul {
-  text-align: right;
-  float: left;
-  width: 50%;
+  margin-top: 10px;
 }
 header ul li {
   display: inline-block;
   font-size: 0.9rem;
   line-height: 0.9rem;
-  padding: 0 0 0 35px;
+  padding: 0 15px 0 0;
   margin: 0;
+}
+header ul li:first-child {
+  display: none;
 }
 header ul li a {
   display: inline-block;
@@ -307,7 +306,6 @@ header ul li a:hover {
 header ul li a:hover,
 header ul li a.active {
   color: #37cca2;
-  border-bottom: 2px solid #37cca2;
 }
 header .overlay {
   position: absolute;
@@ -425,7 +423,7 @@ body.short-header header {
   }
 }
 .bio {
-  display: block;
+  display: none;
   position: absolute;
   top: -40px;
   left: 50%;
@@ -643,7 +641,7 @@ a.btn.btn-mini:hover {
 .post {
   display: block;
   clear: both;
-  padding: 125px 0 0 0;
+  padding: 75px 0 0 0;
 }
 .post a {
   text-decoration: none;
@@ -1222,8 +1220,18 @@ h3.tag-header {
     width: 100%;
     padding: 0 30px 0 30px;
   }
+  header {
+    height: 200px;
+  }
   header .container.wide {
     padding: 30px;
+  }
+  header .container ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+  header .container ul li:first-child {
+    display: none;
   }
 }
 /* Less than 479px width */

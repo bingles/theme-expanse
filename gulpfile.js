@@ -3,7 +3,8 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     uglify = require('gulp-uglify'),
     less = require('gulp-less'),
-    path = require('path');
+    path = require('path'),
+    watch = require('gulp-watch');
     
 // run
 gulp.task('default', function() {
